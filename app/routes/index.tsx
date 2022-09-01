@@ -19,8 +19,7 @@ export async function action({ request }: ActionArgs) {
 export default function Index() {
 	return (
 		<div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.4' }}>
-			<form method="POST" action="/?index" data-netlify="true">
-				<input type="hidden" name="form-name" value="contact" />
+			<form method="POST" action="/?index">
 				<label>
 					Name:
 					<input type="text" name="name" placeholder="Name" />
